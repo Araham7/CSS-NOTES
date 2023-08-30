@@ -1,0 +1,36 @@
+p{
+    /* font-size: xx-large;
+    font-size: large;
+    font-size: larger;
+    font-size: medium;
+    font-size: small;
+    font-size: smaller;
+    font-size: x-large;
+    font-size: x-small;
+    font-size: xx-large;
+    font-size: xx-small;
+    font-size: inherit; */
+    /* font-size: 32px; */
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    /* font-weight: 100;
+    font-weight: 900;
+    font-weight: bold;
+    font-weight: bolder;
+    font-weight: lighter; */
+    /* font-weight: normal ;  */
+    /* Ye font kr weight ko normal kardeta hai. */
+
+    font-variant: small-caps;
+    /* height small aur sare letters capital hojaten hai. */
+    font-variant: normal;
+
+    
+    font-style: italic; /* 'italic' me jyada word ke upar emphesize kiya jata hai.Ime text(content) tircha hojata hai. */
+
+    
+    /* font-style: oblique; */  /* 'oblique' me text ke upar kam emphesize kiya jata hai.Isme bhi text(content) tircha hojata hai.  */
+    /* font-style: normal; */
+    
+}
