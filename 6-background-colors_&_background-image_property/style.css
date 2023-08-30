@@ -1,0 +1,50 @@
+/* *{
+    margin: 0px;
+    padding: opx;
+} */
+
+body{
+                                    /* (1). Css background-color property:-- */
+    /* "background-color: #hexvalue;" , Background-color ke andar humlog hamesa 'color ka hex value lagaten hai' kyunki hex value se lagaya gaya color hame hamesha sare browser me exactly same color deten hai*/
+    background-color: #1c230267;
+
+                                    /* (1). Css background-image property */
+    background-image: url(https://images.pexels.com/photos/2253415/pexels-photo-2253415.jpeg?auto=compress&cs=tinysrgb&w=120&h=750&dpr=1); 
+    /* Isse background image lagaya jata hai. Yadi image chota hoga to image by default hi reapeat hokarke backgroung ko cover karlega */
+
+
+    /* isse background ka image reeat nahi hoaga. */
+    background-repeat: no-repeat;
+    
+
+    /* Ye background me image ko kewal x-axis par hi repet kareg. */
+    /* background-repeat: repeat-x;  */
+
+
+    /* Yebackground me image ko kewal y-axis par hi repet kareg. */
+    /* background-repeat: repeat-y; */
+
+
+    /* Ise lagane se backround me image repeat(Image repeat hokarke sare webpage kohi cover karlega) hone lagega. */
+    /* background-repeat: repeat; */
+
+
+    /* Ise lagane se hamara image background me fixed hojata hai aur agar jyada text hoga to yadi humlog text ko scrole karenge tab bhi image ipne hi fixed position par rahega magr text scroll hojayega. */
+    /* background-attachment: fixed; */
+
+
+    /* Ise lagane se jo hamara image background me hai wo text ke santh santh scroll hojayega. */
+    background-repeat: scroll ;
+
+
+    /* Ye utne hi height tak image ko show karega jitna height tak text(content) hai web_page par.Isme imae ka expact ratio bana huwa rehta hai. */
+    background-size: contain;
+
+    
+    /* ye pure ke pure webpage ko cover karlega.Maga isme image ka expect ratio nahi bana huwa rehta hai. */
+    /* background-size: cover; */
+}
+
+p{
+    color: rebeccapurple;
+}

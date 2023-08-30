@@ -1,0 +1,40 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+} */
+                    /* Padding */
+.padding{
+    background-color: blueviolet;
+    border: 2px solid black;
+
+                                            /* Adding padding to the content:--- */
+    /* Importent NOTEs: 
+            (1). padding: 5px 7px 9px 12px; ==> padding: top right bottom left
+            (2). padding: 5px 7px ==> '"top" and "bottom"-padding = 5px' , '"left" and "right"-padding = 7px'
+            (3). padding: 9px; ==> top_padding = right_padding = bottom_padding = left_padding = 9px
+            (4). padding: 7px 12px 25px ; ==> top_padding = 7 , right_padding = left_padding = 12px , bottom_padding = 25px ;
+    */
+
+    /* padding: top right bottom left */
+    /* padding: 5px 7px 9px 13px; */
+
+    /* iska prayog content ke top me padding denekeliye kiya jata hai. */
+    /* padding-top: 32px; */
+
+    /* Iska prayog content ke right side me padding dene keliye kiya jata hai. */
+    /* padding-right: ; */
+
+    /* Iska prayog content ke bottom me padding dene keliye kiya jata hai. */
+    /* padding-bottom: ; */
+
+    /* Iska prayog content ke left me padding dene keliye kiya jata hai. */
+    /* padding-left:150px ; */
+
+}
+
+                    /* Margin */
+.margin{
+    border: 2px solid red;
+    width: 260px;
+    margin: auto; /* margin: auto; ==> Ye left aur right side se equal margin dekarke content ho hizontally center par la deta hai.Ise apply karnekeliye content ka width limited rehna jaruri hai. */
+}
