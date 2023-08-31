@@ -1,0 +1,9 @@
+p{
+    /* This will converts the default display-block of 'p-tag' into display-inline. */
+    display: inline;
+}
+
+span{
+    /* This will converts the default display-inline of 'span-tag' into display-block. */
+    display: block;
+}
