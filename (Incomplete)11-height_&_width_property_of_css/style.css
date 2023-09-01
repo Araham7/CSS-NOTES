@@ -1,0 +1,43 @@
+            /* (1).Width prodth property */
+.para_1{
+    width: 150px;
+
+
+    border: 2px solid black;
+    background-color: rgb(189, 168, 209);
+}
+
+            /* min-width prodth property */
+/* NOTE:--
+            *** Yadi kisi content(element like 'p-tag','h1-tag' ....) ka 'min-width:120px;' aur 'display:inline-block;' hoto iska matlab hai ki content ka minimum width 120 pixel hona hi chahiye aur yadi content me upasthit 'text' 120px me nahi aarahe hai to text ke hisab se content ka width change hojaye.
+ */
+.para_2{
+    min-width: 120px; /* 'min-width: 120px;' = content ka minimum width 120 pixel hona hi chaiye aue content ka width 120 pixel se kitna bhi jyada sambhaw hai. */
+    display: inline-block;
+
+
+    border: 5px solid orange;
+    background-color: rgb(226, 187, 138);
+
+}
+
+                /* min-width prodth property */
+/* 
+    "max-width: 200px;" aur "display: inline-block;" karnese maximum width 200 px tak hi jayega aur minimum with content ke adar me isthit text ke upar nirbhar karega.
+*/
+.para_3{
+    max-width: 200px;/* Iskamatlab hai ki maximum-width 20px tak hi ja sakta hai aur minimum width kitna bhi sambhaw hai.*/
+
+
+    border: 3px double sandybrown;
+    background-color: burlywood;
+    display: inline-block;
+}
+
+                    /* height */
+.para_4{
+    height: 50px;border: 2px solid brown;
+    display: inline-block;
+    background-color: chartreuse;
+    overflow: hidden; /* "overflow: hidden;" ==> Iska matlab hai ki yadi text given boxse bahar jata hai , to jitna text box se bahar jaraha hai use hide(chipa_do) kardo */
+}

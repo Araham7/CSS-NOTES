@@ -1,0 +1,41 @@
+//////////////////////////////////////////(1). Sudo_Selectors ///////////////////////////////////////////////////////
+:hover ==> Hover karnese kuch effect dalna hoto iskeliye iska prayog kiya jata hai.
+
+:focus ==> Enter karne par yadi kuch effect dalna hoto iska prayog karten hai.('focus' , sudo selector ka prayog jyadter "input" tag ke santh kiya jata hai.)
+
+:link
+
+:visited ==> Yadi koi link visit kiya ja chuka hai to usme changes lane ke liye iska prayog kiya jata hai.
+
+:active ==> kisi link par effect dalne ke liye kiya jata hai jab tak link ko mouse dwara click kar ke rakha jaye.
+
+:first-child ==> Iska use karnekeliye humlogon ko jis bhi tags ke upar me ":first-child" property ko lagana hai un sare tags ko kisi container( e.x:  <div></div> , <nav></nav> , <header></header> , <footer></footer> ) me rakha jata hai tabhi hamara css ka ":first-child" property lagega.
+:lang ==> Jab koi particular hoto tab koi effect dalana ho tab iska prayog karten hai. ("lang" stand for language.)
+
+"nth-child(2n)" ==> Ye even child me changes karega.
+
+"nth-child(2n+1)" ==> Ye odd child ko tag karega.
+
+
+
+/////////////////////////////////////////////(2). Sudo-Elements /////////////////////////////////////////////////////
+
+::first-link 
+
+::first-letter ==> Iska use kisi bhi content ke first-letter(pahla akshar) me changes karnekeliye kiya jata hai.
+
+::after ==> selected content ke Line ke baadme .
+
+::before ==> selected content ke Line ke pehle .
+
+::marker
+
+::selection ==> Yadi user conent ko select kare to .
+
+
+
+
+
+
+
+

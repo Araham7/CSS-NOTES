@@ -1,0 +1,53 @@
+.para{
+                        /* text-color: */
+    color: red; /* Ye text ke color ko red kardega */
+
+                        /* text-align: */
+    text-align: center; /* Ye text ko center me kardega. */
+    text-align: end; /* Ye text ko left side chipka dega. */
+    text-align: justify; /* Ye content ke bich me acchese spacing dekarke pure line ko acchese cover karega.aur last me bacha huwa text ko left me kardega. */
+    text-align: left; /* Ye pratek line ke text ko us line ke left side me lejayega. */
+    text-align: right; /* Ye pratek line ke text ko us line ke right side me lejayega. */
+    text-align: start; /* Ye pratek line ke text ko us line ke left me lejayega. */
+
+                        /* text-decoration: */
+    text-decoration: overline; /* Isme patyek(each) line ke upar se ek line jayega */
+    text-decoration: none; /* Isme patyek(each) line me yadi koi bhi decoration huwa hoga to hat jayega. */
+    text-decoration: underline; /* Isme patyek(each) line ke niche se ek line jayega */
+    text-decoration: line-through; /* Isme patyek(each) line ke bich se ek line jayega jo line ko kata huwa dikhayega. */
+    /* text-decoration: dotted;
+    text-decoration: double;
+    text-decoration: dashed ;
+    text-decoration: wavy;
+    text-decoration: solid; */
+
+
+                    /* text-transform: */
+    text-transform: none;  /* ise karne se text-transformation property hat jata hai. */
+    text-transform: capitalize;
+    /* Ye sae ke sare word ke first letter ko capital kardega aur akika small hi rahega. */
+    text-transform: lowercase; /* Ye sare ke sare letters ko small letter banadega . */
+    text-transform: uppercase; /* Ye sare ke sare letters ko capital letter banadega . */
+
+
+                    /* text-indent: */
+
+    text-indent: 120px; /* Ye hamare text ke firt word ke aage numbr of pixels(px) ka indentation dene ke kaam me pyayog hota hai. */
+
+
+                    /* letter-spacing: */
+
+    letter-spacing: 12px; /* Iska prayog letters ke bich me space(Number of pixels ka space) dene keliye kiya jata hai. */
+
+
+                    /* word-spacing: */
+
+    word-spacing: 25px; /* Iska prayog words ke bich me space(Number of pixels ka space) dene keliye kiya jata hai. */
+
+
+                    /* line-height: */
+
+    line-height: 32px; /* Iska prayok line ke height(Line ka height hi sirf change hota hai letters/words ka height chnge nahi hota hai (letters/words ke height ko change karnekeliye humlog font-size ka payog karten hai.) ) ko nirdharit karnekeliye liye kiya jata hai  */
+
+
+}

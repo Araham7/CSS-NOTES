@@ -1,0 +1,6 @@
+/* 
+    (1).display: block;
+    (2).display: inline;
+    (3).display: inline-block;
+    (4).display: none;
+ */
