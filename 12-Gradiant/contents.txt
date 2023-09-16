@@ -1,0 +1,14 @@
+Gradiant : Gradiant ka matlab hota hai "background-image me color dalna" .
+
+Types of "Gradiants" are as follows :---
+    (1). Linear Gradiant.
+    (2). Radial Gradiant.
+    (3). Conic Gradiant.
+
+NOTE:--
+
+***. "Gradiant" : CSS me gradiant property se humlog kisi block level element ke background ka color effect de sakten hai. 
+
+***. Jab bhi kabhi humlog "Gradiant" ka prayog kisi css me karna chahenge tab humlogon ko "background-image: ;" ke andar me 'linear-gradient() / radial-gradient()' likhkarke uske andar me 'colers' ka combinationes ko fill karna parega(aur sare colors ka sparation keliye comma(,) ka prayog karten karten hai. ) .
+
+***. 

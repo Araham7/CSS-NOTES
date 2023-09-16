@@ -1,0 +1,35 @@
+.liner_grad{
+    height: 800px ;
+
+    /* (1).Linear Gradiant */
+
+    /* Ye top(red) se bottom(orange) color ko lekarke jayega. */
+    /* background-image: linear-gradient( red , yellow , pink , orange  ) ; */
+    
+    /* Ye left(red) se right(orange) color ko lekarke jayega. */
+    /* background-image: linear-gradient( to left , red , yellow , pink , orange  ) ;  */
+
+    /* Ye right(red) se left(orange) color ko lekarke jayega. */
+    /* background-image: linear-gradient( to right , red , yellow , pink , orange  ) ; */
+
+    /* (2).repeating-linear-gradient */
+    /* background-image: repeating-linear-gradient(
+        red, yellow 10%, green 20%
+    ); */
+
+    /* (3). Radial Gradiant */
+    /* background-image: radial-gradient( blue , green , yellow ); */
+
+    /* (4). Circle Gradiant */
+    /* background-image: radial-gradient( circle , blue , green , yellow ); */
+
+    /* (5).Repeating-radial-gradient */
+    /* background-image: repeating-radial-gradient(
+    red 10% ,
+    yellow 15% ,
+    blue 10%); */
+
+    /* (6).  */
+    background-image: conic-gradient( red , yellow , blue ) ;
+}
+
