@@ -1,4 +1,6 @@
+                            (1).Transition
 "Transition" : Iska prayog humlog kisi bhi chij ko "hover" , karne par changes(Transition) aaye .
 
+                            (2).Tool-ticks
 
-
+title="text" = Iska prayog humlog kisi bhi content(vdeo,images... etc) par jab user dwara muse se hover karenge tab uske bareme user ko kuch extra information denekelye prayog krten hai.

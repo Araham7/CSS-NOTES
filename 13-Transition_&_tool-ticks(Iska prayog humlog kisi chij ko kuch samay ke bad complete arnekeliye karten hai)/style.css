@@ -18,10 +18,10 @@
     /* Ye "height" , "width" aur "color" teeno kohi 3second me change karega. */
     transition: all 2s ;
 
-    transition-timing-function: ease ; /* || */
-    transition-timing-function: ease-in ; /* || */
-    transition-timing-function: ease-in-out ; /* || */
-    transition-timing-function: ease-out ; /* || */
+    transition-timing-function: ease ; /* ___ */
+    transition-timing-function: ease-in ; /* ___ */
+    transition-timing-function: ease-in-out ; /* ___ */
+    transition-timing-function: ease-out ; /* |___ */
 
     transition-delay: 2s ; /* 3second ke baad me "transition" , start hoga . */
 }
