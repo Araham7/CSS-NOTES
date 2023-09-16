@@ -9,6 +9,6 @@ NOTE:--
 
 ***. "Gradiant" : CSS me gradiant property se humlog kisi block level element ke background ka color effect de sakten hai. 
 
-***. Jab bhi kabhi humlog "Gradiant" ka prayog kisi css me karna chahenge tab humlogon ko "background-image: ;" ke andar me 'linear-gradient() / radial-gradient()' likhkarke uske andar me 'colers' ka combinationes ko fill karna parega(aur sare colors ka sparation keliye comma(,) ka prayog karten karten hai. ) .
+***. Jab bhi kabhi humlog "Gradiant" ka prayog kisi css me karna chahenge tab humlogon ko "background-image: ;" ke andar me 'linear-gradient(*****) / radial-gradient()' likhkarke uske andar me 'colers' ka combinationes ko fill karna parega(aur sare colors ka sparation keliye comma(,) ka prayog karten karten hai. ) .
 
 ***. 
