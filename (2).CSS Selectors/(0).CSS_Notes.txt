@@ -1,0 +1,5 @@
+There are four types of CSS Selectors :---
+(1). Simple Selectors
+(2). Combination Selectors
+(3). Attribute Selectors
+(4). Pseudo-classes & Pseudo-elements Selectors

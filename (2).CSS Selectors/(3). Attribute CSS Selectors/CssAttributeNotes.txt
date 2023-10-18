@@ -1,0 +1,23 @@
+Types of attribute Selectors :---
+
+(1). A[attribute] ===> Ye "A" tag ke "attribute" ko select karega .(Element with specific attribute.)
+
+(2). A[attribute = "value" ] ===> Ye "A" tag ke "attribute=value" wale element ko select karega .
+
+(3). A[attribute^= "value" ] ===> Ye "A" tag ke ayse "Attribute" wale element ko select karega jiska value "value" se suru ho.
+
+(4). A[attribute|= "value" ] ===> Ye "A" tag ke ayse "Attribute" wale element ko select karega jiska attribute ka value "value-" se suru ho.
+
+(5). A[attribute$= "value" ] ====> Ye "A" tag ke ayse "Attribute" wale element ko select karega jiska attribute ka value ke end me "value" .
+
+(6). A[attribute*= "value" ] ===> Ye us "A" tag ko select karega jiske attribute me value kanhi bhi "valu" wod aaye .
+
+(7). A[attribute~= "value" ] ===> Ye us "A" tag ko select karega jiske attribute ke value me "value" word ke aage piche space ho .
+
+
+
+
+
+
+
+

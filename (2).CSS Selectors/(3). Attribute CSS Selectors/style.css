@@ -1,0 +1,80 @@
+/* (1). A[attribute] */
+img[title]{
+    border: 5px solid orange;
+    border-radius: 35px;
+}   /* Ye selector "Wo" sare images ko select arlega giske andar "title" attribute peasent hoga. */
+
+
+
+
+
+/* (2). A[attribute = "value" ] */
+a[href="www.google.com"]{
+    border: 2px solid greenyellow;
+    background-color: blueviolet;
+    color: aqua;
+    text-decoration: none;
+    border-radius: 12px;
+    padding: 12px;
+}   /* Ye wo sare "anchar-tag" ko select karega jisme atribute ka value (href="www.google.com") ye ho. */
+
+
+
+
+
+/* (3). A[attribute^= value ] */
+a[href^="araham"]{
+    background-color: chartreuse;
+    padding: 15px;
+    border-radius: 13px;
+    border: 3px solid gray;
+}  /* Ye wo sare "anchar-tag" ko select karega jisme atribute(href) ka value "araham" se suru horaha hoga. */
+
+
+
+
+
+/* (4). A[attribute|= value ] */
+a[title|="abc"]{
+    background-color: burlywood;
+    padding: 12px;
+    border: 3px solid red;
+    border-radius: 15px ;
+}   /* Ye us ancher tag ko selec karega jiska "title" ,"abc-" se suruho. */
+
+
+
+
+
+/* (5). A[attribute$= value ] */
+a[title$="yahoo"]{
+    background-color: orangered;
+    padding: 3px;
+    border: 2px solid mediumseagreen;
+    border-radius: 16px;
+}   /* Ye us 'ancher-tag' ko select karega jiske "title" ke ant me "yahoo" aaye. */
+
+
+
+
+
+/* (6). A[attribute*= value ] */
+span[title*="mera"]{
+    background-color: coral;
+    color: chartreuse;
+    border: 2px dotted orchid;
+    border-radius: 12px;
+    padding: 2px ;
+}   /* Ye us "paragraph-tag" ko select karega jiske "title" me kanhi bhi "mera" word aayaho. */
+
+
+
+
+
+/* (7). A[attribute~= value ] */
+h1[title~="longest"]{
+    background-color: coral;
+    text-align: center;
+    border: 3px solid greenyellow;
+    border-radius: 17px;
+}/* Ye us "h1-tag" ko select karega jisme "title" , "longest" ho aur uske(longest ke) aage piche spaces ho. */
