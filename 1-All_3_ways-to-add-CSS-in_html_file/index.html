@@ -10,44 +10,50 @@
 
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>All 3 ways to add css</title>
 
-                            <!-- (3).Adding External Css -->
+    <!-- (3).Adding External Css -->
     <!-- External css se humlogon ne paragraph tag ka background color ko red  , paragraph tag ke display ko block , aur width 700px kiya hai . -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
 
-
-
-                            <!-- (2).Adding Internal css -->
+    <!-- (2).Adding Internal css -->
     <!-- 
         NOTE :---
         *** Internal css se humlogon ne sirf web page ka 'background-color' change kiya hai.
      -->
     <style>
-        body{
-            background-color: #7592c6;
-        }
+      body {
+        background-color: #7592c6;
+      }
     </style>
+  </head>
 
-</head>
-
-
-<body>
+  <body>
     <header>
-                            <!-- (1).Adding Inline Css -->
-        <!-- 
+      <!-- (1).Adding Inline Css -->
+      <!-- 
             NOTE :---
             *****Internal css se humlogon ne 'H1' tag ka 'background-color' ko change kiya hai , "border diya hai" aur 'h1' tag ke andar preasent text ko center me laya hai.
          -->
-        <h1 style=" background-color: chartreuse; border: 2px solid black; border-radius: 20px; text-align: center; text-decoration: underline; "
-        > Inline Css </h1>
+      <h1
+        style="
+          background-color: chartreuse;
+          border: 2px solid black;
+          border-radius: 20px;
+          text-align: center;
+          text-decoration: underline;" >
+        Inline Css
+      </h1>
     </header>
 
     <!-- Paragraph tag me humlog External css laga rahen hai. -->
-    <p>Lorem ipsum dolor sit, amet consectetur ad cupiditate ab, eligendi inventore fugit nostrum asperiores aliquid mollitia molestias quae dolores.
+    <p>
+      Lorem ipsum dolor sit, amet consectetur ad cupiditate ab, eligendi
+      inventore fugit nostrum asperiores aliquid mollitia molestias quae
+      dolores.
     </p>
-</body>
+  </body>
 </html>
