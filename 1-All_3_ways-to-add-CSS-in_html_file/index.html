@@ -1,11 +1,11 @@
 <!-- 
     *****There are three ways to add css in html file these are as follows :--
 
-    1). Inline Css : Ise kisi bhi tag ke andar dala (add kiy) ja sakta hai.Inline css ko add karnekeliye humlog opening tag me style attribute(style="") ke andar me humlog 'css ke sare ke sare codes ko likh deten hai'.
+    1). Inline Css : Ise kisi bhi tag ke andar dala (add kiy) ja sakta hai.Inline css ko add karnekeliye humlog opening tag ke style attribute(style="") ke andar me 'css ke sare codes ko likh deten hai' .
 
-    2). Internal Css : Internal CSS ko add karnekeliye humlog html ke head tag me style-tag (<style></style>) ko dal kar ke style tag ke andarsare ke sare CSS ko /style tag ke andar hi likhdenge.
+    2). Internal Css : Internal CSS ko add karnekeliye humlog html ke "head tag" me "style-tag" (<style></style>) ko add kar ke style tag ke andar me sare CSS likh deten hai.
 
-    3). External Css : HTML se External Css add karnekeliye humlog ek naya CSS folder 'style.css' naam se banaten hai , aur us external css ko html se add karnekeliye humlog head tag ke andar me external css ko "link-tag"( <link rel="stylesheet" href="style.css"> ) laga karke add kardeten hai aur hame jo kuch bhi css likhna rehta hai wo sare css ko humlog External css(style.css) me likhten hai.
+    3). External Css : HTML se External Css add karnekeliye humlog ek naya CSS folder 'style.css' naam se same directory me banaten hai jisme html file hai , aur us external css ko html se add karnekeliye humlog (html wale file ke) head tag ke andar me external css ko "link-tag"( <link rel="stylesheet" href="style.css"> ) laga karke add kardeten hai aur hame jo kuch bhi css likhna rehta hai wo sare css ko humlog External css(style.css) me likhten hai , aur is tarhese hamara "css-file" , "html-file" se link hojata hai.
 -->
 
 <!DOCTYPE html>
@@ -15,24 +15,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>All 3 ways to add css</title>
 
-    <!-- (3).Adding External Css -->
-    <!-- External css se humlogon ke paragraph tag ka background color red kiya , aur paragraph tag ka display block kiya aur width 700px kiya. -->
+                            <!-- (3).Adding External Css -->
+    <!-- External css se humlogon ne paragraph tag ka background color ko red  , paragraph tag ke display ko block , aur width 700px kiya hai . -->
     <link rel="stylesheet" href="style.css">
 
+
+
                             <!-- (2).Adding Internal css -->
+    <!-- 
+        NOTE :---
+        *** Internal css se humlogon ne sirf web page ka 'background-color' change kiya hai.
+     -->
     <style>
-        /* Internal css se humlogon ne sirf web page ka 'background-color' change kiya hai. */
         body{
             background-color: #7592c6;
         }
     </style>
+
 </head>
 
 
 <body>
     <header>
                             <!-- (1).Adding Inline Css -->
-        <!-- Internal css se humlogon ne 'H1' tag ka 'background-color' change kiya hai , border diya hai aur 'h1' tag ke andar sthit text ko center me laya hai. -->
+        <!-- 
+            NOTE :---
+            *****Internal css se humlogon ne 'H1' tag ka 'background-color' ko change kiya hai , "border diya hai" aur 'h1' tag ke andar preasent text ko center me laya hai.
+         -->
         <h1 style=" background-color: chartreuse; border: 2px solid black; border-radius: 20px; text-align: center; text-decoration: underline; "
         > Inline Css </h1>
     </header>

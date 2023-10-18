@@ -1,0 +1,11 @@
+/* (1). Float */
+.div_2{
+    height: 100px ;
+    width: 100px ;
+
+    background-color: blueviolet;
+
+    float: left; /* This will float the "div_2" to left(which is by default) */
+    float: right; /* This will float the "div_2" to "right". */
+    float: none; /* This will not float the "div_2" */
+}

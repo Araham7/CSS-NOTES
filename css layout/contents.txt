@@ -1,0 +1,11 @@
+CSS Layout :---
+    koi bhi website bohot sare chote chote hisse(ex:- header , footer , navigation_bar , aside , main(hero) ... etc. ) se bana hota hai use banane ka sahi tarika janne keliye hame CSS ka Layout janna jaruri hota hai .
+
+
+NOTE :---
+        
+        ***. CSS ke Layoutko banane keliye humlogon ko kuch css ke properties ko janna jaruri hota hai joki kuch is prakar hai :--
+
+            (1). Float
+            (2). Flex
+            (3). Grid
