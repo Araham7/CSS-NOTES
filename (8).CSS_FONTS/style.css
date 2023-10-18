@@ -20,16 +20,16 @@ p{
     font-weight: bolder;
     font-weight: lighter; */
     /* font-weight: normal ;  */
-    /* Ye font kr weight ko normal kardeta hai. */
+    /* Ye font ke weight ko normal kardeta hai. */
 
     font-variant: small-caps; /* height small aur sare letters capital hojaten hai. */
     font-variant: normal;
 
     
-    font-style: italic; /* 'italic' me jyada word ke upar emphesize kiya jata hai.Ime text(content) tircha hojata hai. */
+    font-style: italic; /* 'italic' me jyada word ke upar emphesize kiya jata hai.Isme text(content) tircha hojata hai. */
 
     
-    /* font-style: oblique; */  /* 'oblique' me text ke upar kam emphesize kiya jata hai.Isme bhi text(content) tircha hojata hai.  */
+    /* font-style: oblique; */  /* 'oblique' me "text ke upar kam emphesize kiya jata hai"(compair to "italic").Isme bhi text(content) tircha hojata hai.  */
     /* font-style: normal; */
     
 }

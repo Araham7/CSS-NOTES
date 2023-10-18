@@ -37,11 +37,11 @@ body{
     background-repeat: scroll ;
 
 
-    /* Ye utne hi height tak image ko show karega jitna height tak text(content) hai web_page par.Isme imae ka expact ratio bana huwa rehta hai. */
+    /* Ye utne hi height tak image ko show karega jitna height tak text(content) web_page par hai . Isme image ka expect ratio bana rehta hai. */
     background-size: contain;
 
     
-    /* ye pure ke pure webpage ko cover karlega.Maga isme image ka expect ratio nahi bana huwa rehta hai. */
+    /* ye pure ke pure webpage ko cover karlega. Magar isme image ka expect ratio nahi bana rehta hai. */
     /* background-size: cover; */
 }
 

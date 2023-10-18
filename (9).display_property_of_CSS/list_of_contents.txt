@@ -1,6 +1,13 @@
 /* 
-    (1).display: block;
-    (2).display: inline;
-    (3).display: inline-block;
-    (4).display: none;
+    NOTE :---
+***** Block element = Aysa element jo pura line ka space lale .
+***** Inline element = Aysa element jo kewal utna hi kisi line ka width le jitne me us element ke content samapt hojaye.
+
+    (1).display: block;   ===> Ye kisi element ka display ko block kardeta hai .
+
+    (2).display: inline;   ===> Ye kisi element ka display ko inline kardeta hai .
+     
+    (3).display: inline-block;   ===> Ye kisi element ke display ko inline block kardeta hai .(Isme koi element utne hi width tak block ki tarhe behave karta hai jitne dur tak content hai aur jab iska width khatm hojata hai tab ye inline element ki tarhe behave karta hai . )
+
+    (4).display: none;   ===> Kisi element me "display = one" property daalne se hamae element web-page se gaayab hojata hai .
  */
